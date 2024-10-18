@@ -1,0 +1,414 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Varela+Round&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Varela Round", "Sans Serif";
+  background-color: #F1F8FF;
+}
+#main{
+  background-color: #fff;
+  /* margin: 0 70px; */
+}
+.container12{
+  height: 100vh;
+  background-image: url("banner_2.png");
+  background-size: cover;
+}
+.container1{
+  background-image: url("banner3.png");
+  height: 60vh;
+  background-size: cover;
+}
+nav{
+  position: fixed;
+  z-index: 99;
+}
+.nav-content {
+  font-weight: bold;
+}
+.nav-link:hover {
+  color: orange;
+}
+.nav-link:active {
+  color: orange;
+}
+.img-logo {
+  height: 5vh;
+}
+.book_btn {
+    background-color: orange;
+    border: 0;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  .book_btn:hover {
+    background-color: rgb(253, 178, 41);
+    border: 0;
+  }
+.book_btn_2{
+  background-color: orange;
+  border: 0;
+  border-radius: 0;
+  height: 6vh;
+}
+.book_btn_2:hover {
+  background-color: rgb(253, 178, 41);
+  border: 0;
+  border-radius: 0;
+}
+.top-head{
+    color: white;
+    font-family: "Varela Round", "Sans Serif";
+    font-size: 5vmax;
+    font-weight: 900;
+}
+.open{
+margin-top: 5vh;
+padding-left: 2vw;
+/* margin-left: 5vw; */
+}
+.grill{
+  /* padding-left: 10vw; */
+  width: 15%;
+}
+
+.img-rotate{
+  animation: rotate 30s linear infinite;
+}
+@keyframes rotate {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+.top-para{
+  font-size: 1vmax;
+    color: white;
+    font-family: "Varela Round", "Sans Serif";
+}
+.read_btn {
+    background-color: rgb(253, 178, 41);
+    border: 0;
+    border-radius: 0;
+    margin-top: 10px;
+  }
+  .read_btn:hover {
+    background-color: orange;
+    border: 0;
+    border-radius: 0;
+  }
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 40vh;
+  }
+  .right-side {
+    font-weight: bolder;
+  }
+  .img-size {
+    height: 20vh;
+    width: 20vh;
+  }
+  .left-section {
+    margin: 0;
+  }
+  .img-size1 {
+    height: 100%;
+    width: 100%;
+  }
+  .img-size2 {
+    height: 100%;
+    width: 100%;
+    scale: 0.75;
+  }
+  .img-size3 {
+    height: 100%;
+    width: 100%;
+    scale: 0.75;
+  }
+  .img-size4 {
+    height: 100%;
+    width: 100%;
+  }
+  .spacing{
+    margin-right: 10px;
+  }
+  .font1 {
+    font-family: "Pacifico", "Sans Serif";
+    color: orange;
+    font-size: 25px;
+    font-weight: 400;
+  }
+  .font12 {
+    font-family: "Pacifico", "Sans Serif";
+    color: orange;
+    font-size: 30px;
+    font-weight: 400;
+  }.box4{
+    border-left: 5px solid orange;
+    padding: 0px 10px;
+    margin-right: 20px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+  }
+  .box5{
+    display: flex !important;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .team ,.services, .food{
+    text-align: center;
+  }
+  .bottom {
+    background-color: rgb(4, 4, 41);
+  }
+  .size1 {
+    font-size: 60px;
+    padding-bottom: 15px;
+  }
+  .center {
+    padding: 0 10px;
+    margin: 0 10px;
+  }
+  input {
+    border: 0;
+    padding: 10px;
+  }
+  .chef-size {
+    height: 200px;
+    background-size: cover;
+    border-radius: 100%;
+    margin-bottom: 30px;
+  }
+  .card {
+    padding: 50px 50px 0 50px;
+  }
+  .table-size{
+    width: 100%;
+  }
+  
+.breakfast,
+.lunch,
+.dinner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.food {
+    text-align: center;
+}
+
+.font1 {
+    font-family: "Pacifico", "Sans Serif";
+    color: orange;
+    font-size: 5vmin;
+    font-weight: 400;
+}
+i{
+    color: orange;
+    font-size: 6vmin;
+    font-weight: 400;
+    margin-right: 1vw;
+    padding: 10px;
+}
+.card:hover{
+  background-color: orange;
+  color: white;
+  transition: all ease 0.5s;
+ }
+ .card:hover i{
+   color: white;
+  }
+span{
+    font-weight: 700;
+}
+.fulldetail{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#nameprice{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nameprice p{
+    color: orange;
+    font-size: 2vw;
+    font-weight: 600;
+    margin-right: 1vw;
+}
+#nameprice h3{
+font-weight: 650;
+}
+
+.line{
+    margin: 0;
+padding: 0;
+}
+#food-detail{
+    width: 80%;
+}
+#food-des{
+    display: flex;
+    align-items: center;
+    justify-self: start;
+    color: gray;
+}
+.breakfast , .lunch , .dinnner{
+  transition: all ease .2s;
+}
+.breakfast:hover{
+  border-bottom: 3.5px solid orange;
+}
+.lunch:hover{
+  border-bottom: 3.5px solid orange;
+}
+.dinner:hover{
+  border-bottom: 3.5px solid orange;
+}
+.breakfast p,.lunch p,.dinner p{
+  font-size: 2vmin;
+}
+#menu{
+  display: flex;
+}
+/* #breakfast-menu{
+  height: 50%;
+  width: 100%;
+} */
+#lunch-menu{
+  display: none;
+}
+#dinner-menu{
+  display: none;
+}
+  .reservation{
+    background-color: rgb(4, 4, 41);
+    padding: 15px 20px;
+  }
+  .reservation input{
+    margin: 10px 40px;
+  }
+  .reservation select{
+    height: 46px;
+    width: 210px;
+    margin: 10px 30px;
+  }
+  .reservation button{
+    margin: 10px 40px;
+  }
+  #req{
+    width: 82%;
+    height: 10%;
+  }
+  .reservation h1{
+    font-family: "Pacifico", "Sans Serif";
+    color: orange;
+    font-size: 2vw;
+    font-weight: 400;
+  }
+  .box h1{
+    font-size: 6vmax;
+    }
+    ul li {
+      list-style: none;
+      transition: all ease 0.5s;
+      position: relative;
+    }
+    ul li::after{
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      content: "";
+      width: 00%;
+      transition: all ease 1s;
+      color: red;
+      background-color: aqua;
+      border-bottom: 2px solid white;
+
+    }
+    ul li i{
+      color: white;
+      font-size: 15px;
+    }
+    ul{
+      padding-left: 0;
+      line-height: 1;
+    }
+    ul li:hover::after{
+      width: 100%;
+      /* border-bottom: 2px solid white; */
+    }
+    ul li:hover{
+      letter-spacing: 1px;
+      /* border-bottom: 2px solid white; */
+    }
+    
+    #navbarNavDropdown ul li {
+      list-style: none;
+      transition: all ease 0.5s;
+      position: relative;
+    }
+    #navbarNavDropdown ul li::after{
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      content: "";
+      width: 00%;
+      transition: all ease 1s;
+      /* color: red; */
+      background-color: aqua;
+      border-bottom: 3px solid orange;
+
+    }
+    #navbarNavDropdown ul{
+      padding-left: 0;
+      line-height: 1;
+    }
+    #navbarNavDropdown ul li:hover::after{
+      width: 100%;
+      /* border-bottom: 2px solid white; */
+    }
+    #navbarNavDropdown ul li:hover{
+      letter-spacing: 1px;
+      /* border-bottom: 2px solid white; */
+    }
+    /* .popup {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #fff;
+      padding: 20px;
+      border: 2px solid #333;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      z-index: 9999;
+  }
+  Styles for the overlay
+  .overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9998;
+}
+     */
+    
