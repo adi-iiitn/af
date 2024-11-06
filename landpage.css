@@ -465,6 +465,27 @@ padding: 0;
 
 
 
+.join-container{
+  height: 26px;
+  width: 90px;
+  background-color: aqua;
+  margin-left: 75px;
+  border-radius: 0%;
+  justify-content: center;
+  
+}
+
+
+
+.black{
+  color: black;
+  justify-content: center;
+  margin-left: 17PX;
+}
+
+
+
+
 
 
     
